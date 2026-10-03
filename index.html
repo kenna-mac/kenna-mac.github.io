@@ -127,13 +127,10 @@
 
             display: flex;
             align-items: center;
-            justify-content: space-between;
-
-            gap: 70px;
         }
 
         .hero-text {
-            flex: 1;
+            max-width: 850px;
         }
 
         .eyebrow {
@@ -164,8 +161,6 @@
             font-size: 19px;
             color: #F3F7F3;
         }
-
-        
 
 
         /* ==============================
@@ -234,6 +229,11 @@
         .about-card p {
             font-size: 19px;
             color: #4F8066;
+            margin-bottom: 18px;
+        }
+
+        .about-card p:last-child {
+            margin-bottom: 0;
         }
 
 
@@ -297,25 +297,6 @@
             border: 1px solid #DCE9DF;
 
             box-shadow: 0 10px 30px rgba(31, 77, 58, 0.06);
-        }
-
-        .skill-icon {
-            width: 45px;
-            height: 45px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            background: #DCE9DF;
-
-            color: #1F4D3A;
-
-            border-radius: 12px;
-
-            font-size: 22px;
-
-            margin-bottom: 15px;
         }
 
         .skill-card h3 {
@@ -531,8 +512,11 @@
             }
 
             .hero-content {
-                flex-direction: column-reverse;
                 text-align: center;
+            }
+
+            .hero-text {
+                max-width: 100%;
             }
 
             .hero-text h1 {
@@ -542,8 +526,6 @@
             .hero-text p {
                 margin: auto;
             }
-
-            
 
             .skills-container,
             .projects {
@@ -636,15 +618,12 @@
                 </h2>
 
                 <p>
-                    I’m an accounting student at Rutgers University 
-                    who is looking to build real-world experience, continue learning, 
+                    I’m an accounting student at Rutgers University
+                    who is looking to build real-world experience, continue learning,
                     and grow into a dependable accounting professional.
                 </p>
 
             </div>
-
-
-         
 
         </div>
 
@@ -669,15 +648,16 @@
         <div class="about-card">
 
             <p>
-                I am an accounting student at Rutgers Business School who is interested in building a career where I can 
-                continue learning and apply what I have learned in the classroom to real-world situations. Throughout my time at Rutgers, 
-                I have developed a stronger understanding of accounting and business through my coursework, projects, and experiences outside 
+                I am an accounting student at Rutgers Business School who is interested in building a career where I can
+                continue learning and apply what I have learned in the classroom to real-world situations. Throughout my time at Rutgers,
+                I have developed a stronger understanding of accounting and business through my coursework, projects, and experiences outside
                 of the classroom. These experiences have also helped me become more organized, dependable, and comfortable working with others.
-            </p> 
+            </p>
+
             <p>
-As I continue through my accounting degree, I am looking for opportunities to gain more 
+                As I continue through my accounting degree, I am looking for opportunities to gain more
                 hands-on experience and better understand what it is like to work in the
-                accounting field. I want to continue developing my technical skills while also 
+                accounting field. I want to continue developing my technical skills while also
                 becoming a stronger communicator and problem solver. My goal is to take what I have
                 learned in college and use it to become a reliable professional who is willing to learn and grow.
             </p>
@@ -747,20 +727,15 @@ As I continue through my accounting degree, I am looking for opportunities to ga
         <div class="section-label">
             What I Bring
         </div>
-  
+
         <h2 class="section-title">
             Skills
         </h2>
 
- 
         <div class="skills-container">
 
 
             <div class="skill-card">
-
-                 <div class="skill-icon">
-                    
-                </div>
 
                 <h3>
                     Technical Skills
@@ -794,10 +769,6 @@ As I continue through my accounting degree, I am looking for opportunities to ga
 
 
             <div class="skill-card">
-
-                 <div class="skill-icon">
-                    
-                </div>
 
                 <h3>
                     Professional Skills
@@ -871,10 +842,12 @@ As I continue through my accounting degree, I am looking for opportunities to ga
                 </p>
 
                 <p>
-                    Analyzed the United Technologies acquisition of Raytheon
-                    using acquisition accounting principles under ASC 805.
-                    The project included examining consideration, equity,
-                    investments, and transaction-related costs.
+                    For this Advanced Accounting project, I analyzed the United Technologies acquisition of Raytheon
+                    using the acquisition method under ASC 805. I examined the consideration transferred in the
+                    all-stock merger, the fair value of assets and liabilities acquired, equity issued, investments,
+                    and merger-related costs. I used information from RTX’s 2020 Form 10-K to connect the accounting
+                    rules from class to an actual business combination and understand how the acquisition affected
+                    the acquiring company’s financial statements.
                 </p>
 
                 <a href="accounting-acquisition.pdf" class="project-link" target="_blank">
@@ -902,13 +875,16 @@ As I continue through my accounting degree, I am looking for opportunities to ga
                 </p>
 
                 <p>
-                    Completed a virtual audit experience involving accounts
-                    receivable, confirmation procedures, and analysis of
-                    financial information.
+                    I completed a virtual audit job simulation through KPMG’s Forage program based on the audit of
+                    Ashbourne Industries. The project focused on accounts receivable and involved reviewing financial
+                    information, working with confirmation data, and considering customer responses. I analyzed a
+                    large accounts receivable balance and used the confirmation results to better understand what the
+                    evidence could indicate about the account. This experience allowed me to apply concepts from my
+                    auditing coursework to a more realistic business situation.
                 </p>
 
                 <a href="kpmg-audit-simulation.pdf" class="project-link" target="_blank">
-                    View Program →
+                    View Project →
                 </a>
 
             </div>
@@ -932,9 +908,12 @@ As I continue through my accounting degree, I am looking for opportunities to ga
                 </p>
 
                 <p>
-                    Analyzed companies in the supermarket industry by examining
-                    financial performance, business-level strategies, resources,
-                    and competitive advantages.
+                    For this project, I analyzed how firms in the supermarket industry make money and compete with
+                    one another. I compared companies including Whole Foods, Kroger, Safeway, and Supervalu by
+                    examining financial performance, including revenue, margins, operating income, net income, and
+                    return measures. I also looked at how each company uses its resources and core competencies to
+                    develop a competitive advantage. The project helped me connect financial performance with
+                    business-level strategy and understand how a company’s strategic choices can affect its results.
                 </p>
 
                 <a href="supermarket-industry-analysis.pdf" class="project-link" target="_blank">
